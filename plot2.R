@@ -1,3 +1,4 @@
+# Note: please extract the dataset file named "household_power_consumption.txt" in your present working  directory
 # Loading power consumption data of date between 2007-02-01 and 2007-02-02
 ds <- read.table("household_power_consumption.txt", header=T, sep=";")
 df <- power[(ds$Date=="1/2/2007") | (ds$Date=="2/2/2007"),]
